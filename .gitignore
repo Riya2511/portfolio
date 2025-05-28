@@ -32,3 +32,5 @@ coverage/
 
 # vscode
 .vscode/
+
+next.config.js
