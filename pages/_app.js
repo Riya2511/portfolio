@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
     <>
     <Head>
         <title>Riya's Portfolio</title>
-        <link rel="icon" href="/bg-exploion.png" />
+        <link rel="icon" href="/avatar1.png" />
     </Head>
     <Layout>
       <AnimatePresence mode="wait">
