@@ -81,26 +81,31 @@ const aboutData = [
         title: 'Winner - Smart India Hackathon 2022 (Hardware Edition)',
         organizedBy: 'Dept. of Science & Technology, Gov. of India',        
         project: 'Netra-Connect',
+        perks: 'Cash Prize: Rs. 1,00,000',
       },
       {
         title: 'Runner Up - Retirement Industry Hackathon',
         organizedBy: 'TIAA Global Capabilities',
         project: 'AI-Based Retirement Planning Assistant',
+        perks: 'Received Certificate and Goodies',
       },
       {
         title: 'Runner Up - Researcher Discover Platform',
         organizedBy: 'IIT Bombay, in association with TATA Sons',
-        project: 'Researcher Discovery Platform by Hexapods'
+        project: 'Researcher Discovery Platform by Hexapods',
+        perks: 'Cash Prize: Rs. 25,000',
       },
       {
         title: 'Winner - National-Level Science Day Competition',
         organizedBy: 'GMRT, in association with Growing Dots',
         project: 'Natural River Trash Regulation',
+        perks: 'Received Trophy and Certificate',
       },
       {
         title: 'Runner Up - Skill Championship',
         organizedBy: 'IIT Delhi, in collaboration with MakeIntern',
         project: 'Treenery',
+        perks: 'Cash Prize: Rs. 15,000',
       }
     ],
   },
@@ -221,7 +226,8 @@ const About = () => {
                 </div>
               </div>
               <div className='font-light italic text-white/70 text-lg -mt-4'>{item.organizedBy && `Organized By ${item.organizedBy}`}</div>
-              <div className='font-light text-white/70 text-lg -mt-2 xl:-mt-4 mb-2'>{item.project && `Project: ${item.project}`}</div>
+              <div className='font-light text-white/70 text-lg -mt-2 xl:-mt-4'>{item.project && `Project: ${item.project}`}</div>
+              <div className='font-light text-white/70 text-lg -mt-2 xl:-mt-4 mb-2'>{item.perks && `${item.perks}`}</div>
               </>
             )
           })}
