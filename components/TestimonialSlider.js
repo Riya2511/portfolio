@@ -1,14 +1,14 @@
 // testimonial data
 const testimonialData = [
   {
-    image: '/t-avt-3.png',
+    image: '/tlubben.jpeg',
     name: 'Tyler Lubben',
     position: 'Founder, VizualLeads, USA',
     message:
       'Riya built a flawless lead automation system—processed 100GB+ data and delivered actionable insights. Truly exceeded expectations!',
   },
   {
-    image: '/t-avt-1.png',
+    image: '/pradeep.jpeg',
     name: 'Pradeep Gupta',
     position: 'CEO & Founder, Bisgen Solutions, India',
     message:
